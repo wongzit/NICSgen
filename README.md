@@ -1,4 +1,5 @@
 # NICSgen v1.1
+![NICSgen_full](https://user-images.githubusercontent.com/41381763/116081377-28578000-a6d5-11eb-8408-56438ae5812a.png)
 Input file generator for NICS calculation.
 **NICSgen homepage** https://www.wangzhe95.net/program-nicsgen
 
