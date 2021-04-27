@@ -1,4 +1,4 @@
-# NICSgen v1.1
+# NICSgen v1.2
 ![NICSgen_full](https://user-images.githubusercontent.com/41381763/116081377-28578000-a6d5-11eb-8408-56438ae5812a.png)
 Input file generator for NICS calculation.
 
@@ -6,11 +6,15 @@ Input file generator for NICS calculation.
 
 First release: 2021-04-25
 
-Last update: 2021-04-27
+Last update: 2021-04-28
 
 Author: Zhe Wang
 
 ## Update history
+### v1.2 (2021-04-28)
+1. Bug in v1.1 "when altitued n value in NICS(n) is 0, 3 Bq atoms were added at same position" has been fixed.
+2. Executable files will be upload soon.
+
 ### v1.1 (2021-04-27) Main features
 1. Add Bq atoms in the center of specified atoms.
 2. NICS(n) calculation is supported.
@@ -33,10 +37,10 @@ Executable file **NICSgen_v11_mac** has been tested on macOS Catalina 10.15.7 (I
 
 ### For Linux
 Before running for the first time, you may need to add permission by:
-`chmod +x ./path_to_NICSgen/NICSgen_v11_linux`
+`chmod +x ./path_to_NICSgen/NICSgen_v12_linux`
 
 Add following command to environmental variables (for bash):
-`alias nicsgen=./path_to_NICSgen/NICSgen_v11_linux`
+`alias nicsgen=./path_to_NICSgen/NICSgen_v12_linux`
 and you can run NICSgen by `nicsgen`.
 
 ### For Microsoft Windows
