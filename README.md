@@ -13,7 +13,6 @@ Author: Zhe Wang
 ## Update history
 ### v1.2 (2021-04-28)
 1. Bug in v1.1 "when altitued n value in NICS(n) is 0, 3 Bq atoms were added at same position" has been fixed.
-2. Executable files will be upload soon.
 
 ### v1.1 (2021-04-27) Main features
 1. Add Bq atoms in the center of specified atoms.
