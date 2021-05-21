@@ -10,6 +10,8 @@ Last update: 2021-04-28
 
 Author: Zhe Wang
 
+ORCiD: [0000-0002-9996-586X](https://orcid.org/0000-0002-9996-586X)
+
 ## Update history
 ### v1.2 (2021-04-28)
 1. Bug in v1.1 "when altitued n value in NICS(n) is 0, 3 Bq atoms were added at same position" has been fixed.
@@ -25,25 +27,25 @@ Author: Zhe Wang
 ### For all platform
 Python source code is provided, if your computer already installed Python IDE, you can run NICSgen with:
 
-`python3 NICSgen_v11_source.py`
+`python3 NICSgen_vxx_source.py`
 
 Executable files for macOS/Linux/Windows are in **execufiles.zip**.
 
 **NOTICE:** Python 3.7 or newer is recommended, NICSgen may not work normally under Python 2.
 
 ### For macOS
-Executable file **NICSgen_v11_mac** has been tested on macOS Catalina 10.15.7 (Intel Mac) and Big Sur 11.2.3 (Intel/M1 Mac).
+Executable file **NICSgen_vxx_mac** has been tested on macOS Catalina 10.15.7 (Intel Mac) and Big Sur 11.2.3 (Intel/M1 Mac).
 
 ### For Linux
 Before running for the first time, you may need to add permission by:
-`chmod +x ./path_to_NICSgen/NICSgen_v12_linux`
+`chmod +x ./path_to_NICSgen/NICSgen_vxx_linux`
 
 Add following command to environmental variables (for bash):
-`alias nicsgen=./path_to_NICSgen/NICSgen_v12_linux`
+`alias nicsgen=./path_to_NICSgen/NICSgen_vxx_linux`
 and you can run NICSgen by `nicsgen`.
 
 ### For Microsoft Windows
-Executable file **NICSgen_v11_win.exe** has been tested on Windows 10 Education (x64) with Intel Core i7-10700. Double click to run it.
+Executable file **NICSgen_vxx_win.exe** has been tested. Double click to run it.
 
 ## How to use
 **NOTICE:** NICSgen only generates input file for Gaussian. More details in program manual.
