@@ -23,7 +23,9 @@ ORCiD: [0000-0002-9996-586X](https://orcid.org/0000-0002-9996-586X)
 ### v0.2 (2021-04-26)
 1. First beta release.
 
-## Platform
+## How to run
+For more information, please check the user manual.
+
 ### For all platform
 Python source code is provided, if your computer already installed Python IDE, you can run NICSgen with:
 
